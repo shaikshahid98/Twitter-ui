@@ -15,8 +15,8 @@ import SidebarOption from './SidebarOption';
 
 const Sidebar = () => {
   return (
-    <div className="" >
-        <div className='text-sky-400'>
+    <div className="m-2" >
+        <div className='ml-2  text-sky-400'>
        <TwitterIcon style={{ fontSize: 50 }} />
         </div>
                     <SidebarOption Icon={Home} text={"Home"} active={true} />
